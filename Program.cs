@@ -7,9 +7,23 @@ class Program
         Console.WriteLine("hello everyone");
     }
 
-    static void GreetWhite()
+    static void GreetBlack()
     {
-        Console.WriteLine("hello white");
+        Console.WriteLine("hello black");
+    }
+
+    static void Main()
+    {
+        SayHello();
+    }
+}
+using System;
+
+class Program
+{
+    static void SayHello()
+    {
+        Console.WriteLine("hello everyone");
     }
 
     static void GreetBlack()
@@ -20,7 +34,6 @@ class Program
     static void Main()
     {
         SayHello();
-        GreetWhite();
         GreetBlack();
     }
 }
